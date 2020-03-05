@@ -1,0 +1,4 @@
+/* stylelint-disable-next-line block-no-empty */
+.content-block {
+  @include size(75vw, 100vh);
+}

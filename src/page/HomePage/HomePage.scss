@@ -1,0 +1,10 @@
+/* stylelint-disable-next-line block-no-empty */
+.home-page {
+  @include position(0);
+  position: fixed;
+  display: flex;
+
+  > * {
+    flex-shrink: 0;
+  }
+}

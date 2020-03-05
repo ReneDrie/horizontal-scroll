@@ -1,0 +1,47 @@
+/* stylelint-disable-next-line block-no-empty */
+.hero-block {
+  @include size(200vw, 100vh);
+  position: relative;
+}
+
+.background {
+  @include size(100vw, 100vh);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(https://authentic-scandinavia.com/destinations/norway-tours/_/image/972bc745-f6bd-4bc9-9645-f3bbb5a5d9d1:fae904c3cbd32d7dca41032fbae4713deb81dbd2/width-1140/Norway_Photo_Frithjof_Fure_-__www.fjordnorway.com___-_Aurlandsfjord.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+
+.overlay {
+  @include size(50vw, 100%);
+  @include offset(0, 0);
+  position: absolute;
+  background: #fff;
+  mix-blend-mode: soft-light;
+}
+
+.title {
+  @include size(100vw, 100vh);
+  @include offset(0, 0);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, rgba(#fff, 0) 50%, rgba(#fff, 1) 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+  }
+}
