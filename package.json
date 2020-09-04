@@ -109,7 +109,7 @@
     "lint-staged": "^8.0.4",
     "lodash-webpack-plugin": "^0.11.4",
     "modernizr-loader": "^1.0.1",
-    "node-sass": "^4.4.0",
+    "node-sass": "^4.13.1",
     "node-sass-json-importer": "^4.0.1",
     "npm-run-all": "^4.1.5",
     "opn": "^5.0.0",
