@@ -121,7 +121,7 @@
     "raw-loader": "^1.0.0",
     "sass-loader": "^7.0.2",
     "sass-resources-loader": "^2.0.0",
-    "shelljs": "^0.8.1",
+    "shelljs": "^0.8.5",
     "style-loader": "^0.23.0",
     "stylelint": "^9.0.0",
     "stylelint-config-prettier": "^4.0.0",
